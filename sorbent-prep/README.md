@@ -1,0 +1,3 @@
+# Sorbent Prep
+
+Here, I'll show you how to prepare the sorbent for carbon capture. This is needed because the resin is not ready to go from the factory. From the factory, the ion attached to the functional group of the resin is a chloride ion. We want to change this ion out for either a hydroxide ion or a carbonate ion. Here, I'm exchanging the ion for a carbonate ion because I don't really want to handle hydroxide in my kitchen. Also, if you're a chemistry wizard, you can collect the water from the rinsing of the resin after each wash to see how many chloride ions are in the water by using the Mohr method. Again, I'm in a kitchen, so I'm not going to do that.
