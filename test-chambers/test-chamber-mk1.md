@@ -1,25 +1,36 @@
----
-description: This one doesn't work :(
----
+# Test Chamber MK1  
 
-# Test Chamber MK1
+I’m including this for two reasons:  
+1. **Science** says you should document everything.  
+2. To explain why MK2 exists—because MK1 is, frankly, a disaster.  
 
-I'm only mentioning this because (1 science says that I should document everything and (2 so you know why MK2 exists and it isn't just MK1.&#x20;
+## A Lesson in What Not to Do  
 
-## This is a piece of crap. Please don't do this to yourself.
+**This setup is a mess. Spare yourself the pain and don’t replicate it.**  
 
-I used an Ikea box with a MOX sensor. MOX sensors are actually legit garbage mixed with flaming poop. Never use them. They are so inaccurate, even if you break the bank and buy a $30 Adafruit one, which is pre-calibrated.&#x20;
+For this version, I used an **Ikea box** paired with a **MOX sensor**. Let me save you some trouble: MOX sensors are absolute garbage. Even the $30 pre-calibrated one from Adafruit (yes, I splurged) was laughably inaccurate.  
 
-I wired up everything according to Adafruit and added some tubing for a syringe. Then, I put a fan in the box, powered by DC variable power supply. Finally, I put aluminum tape (duct tape) over all the edges/seams/whatever-you-call-it to supposedly hermetically (to make something airtight) seal it. Yeah, let's just say that didn't work.&#x20;
+### What I Did:  
+1. Wired everything according to Adafruit’s guidelines.  
+2. Added tubing for a syringe.  
+3. Installed a fan powered by a DC variable power supply to circulate air.  
+4. Tried to hermetically seal the box with aluminum (duct) tape over all the seams.  
 
-The one thing I did learn from this test is that the fan to circulate everything messes up the readings, because it blows more air (with more CO2) across the sensor, making it think that there is more CO2 in the box than there actually is. Though I still have to test this theory again with more advanced sensors.&#x20;
+**Spoiler alert:** It didn’t work.  
 
-Here are some pictures of you really want to see my ugly monstrosity:
+### Key Takeaways:  
 
-![](../.gitbook/assets/IMG_1955.jpeg)
+1. **MOX Sensors Are Bad:**  
+   MOX sensors are notoriously unreliable for measuring CO2. Their readings are all over the place, making them unsuitable for precise testing.  
 
-![](../.gitbook/assets/IMG_1962.jpeg)
+2. **Fans Mess with Sensors:**  
+   The fan I added to circulate air inside the chamber ended up skewing the CO2 readings. It increased the airflow across the sensor, making it falsely detect higher CO2 concentrations. This theory needs further testing with more advanced sensors, but for now, consider it a lesson learned.  
 
-![](../.gitbook/assets/IMG_1958.jpeg)
+### Images  
 
-![](../.gitbook/assets/IMG_1956.jpeg)
+If you’re curious (or need a laugh), here are some photos of my failed contraption:  
+
+![](../assets/IMG_1955.jpeg)  
+![](../assets/IMG_1962.jpeg)  
+![](../assets/IMG_1958.jpeg)  
+![](../assets/IMG_1956.jpeg) 

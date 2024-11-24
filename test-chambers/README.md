@@ -1,3 +1,5 @@
 # Test Chambers
 
-Here is my documentation for the test chambers. The test chambers are basically little hermetically (air-tight) sealed boxes that we can test the desorbtion of the sorbent material, in this case ion exchange resin. Feel free to freestyle this if you want, you don't need to follow my guide exactly, but it is easier to do that, as I have it mostly layed out.&#x20;
+This document details the test chambers I’ve designed. These chambers are essentially small, hermetically sealed (air-tight) boxes used to test the desorption performance of the sorbent material—specifically, ion exchange resin in this case.
+
+While you don’t need to replicate my setup exactly, I recommend referring to the MK2 and MK3 guides if you’re looking to create your own test chamber. They provide a solid starting point for designing and building your system.

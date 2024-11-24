@@ -1,5 +1,20 @@
-# Test Chamber MK3
+# Test Chamber MK3  
 
-But wait... there's more!
+**But wait... there’s more!**  
 
-After my results were sub-optimal from my tests, I re-read The Study and determined that to get adequate results, I had to remove the resin 2 minutes after initial wetting. I did this by using a geared DC motor with a little 3D-printed string winder on it. I attached some fishing line to that and then to the packet of resin. When the motor turns, it winds the string up, moving the packet of resin up. When you reverse the polarity of the motor, you can get the motor to spin in the opposite direction, hence unwinding the string and letting the resin be lowered into the water. I just hot glued this mechanism onto the lid of test chamber MK2, made a hole in the lid for the wires, and plugged the hole where the syringe used to be, because we won't be using that anymore.&#x20;
+After some suboptimal results in my earlier tests, I revisited the study and realized that achieving better outcomes required removing the resin **exactly 2 minutes after initial wetting**. To automate this process, I created a simple mechanism using:  
+- A **geared DC motor**  
+- A **3D-printed string winder**  
+- Fishing line  
+- A packet of resin  
+
+Here’s how it works:  
+- The motor turns the winder, pulling up the fishing line and raising the resin packet out of the water.  
+- By reversing the motor’s polarity, it spins in the opposite direction, unwinding the line and lowering the resin back into the water.  
+
+To integrate this mechanism with the MK2 chamber:  
+1. I hot-glued the motor assembly to the lid of the chamber.  
+2. Drilled a hole in the lid for the motor’s wires.  
+3. Sealed the hole where the syringe had been, as it was no longer needed for this design.  
+
+This upgrade streamlined the process and allowed for more precise timing, making the system much more reliable for future tests.

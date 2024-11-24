@@ -1,78 +1,74 @@
----
-description: This one works!
----
+# Test Chamber MK2  
 
-# Test Chamber MK2
+For the MK2 test chamber, I used an **IP67 waterproof storage container** from Home Depot and upgraded to a more accurate CO2 sensor, the **SCD30**. This sensor uses NDIR (Non-Dispersive Infrared) technology, making it far more precise than the MOX sensor used in the previous version.  
 
-I used an IP67 waterproof storage container from Home Depot, and a more accurate CO2 sensor called the SCD30, which is NDIR, meaning that it is infinitely more accurate than the MOX sensor I used last time.
+To modify the container, I drilled two holes:
+* One for water (to regenerate the resin).
+* One for wires to connect the CO2 sensor.  
 
-I drilled holes on both sides of the box, with one for water (to regenerate the resin), and the other for wires for the CO2 sensor. I then hot glued the holes to make it as airtight as possible.&#x20;
+I sealed these holes with hot glue to ensure the chamber remained airtight.  
 
-## Read the below note and MK3 chamber page before continuing!
+## Important Note
 
-Note that the Arduino Leonardo gave me a lot of issues with the sensor. I tried the Arduino Nano after that, but that still didn't work, so I switched over to the Arduino Uno, and it is currently working. So, if you were to make this, please use the Uno.&#x20;
+Before continuing, be sure to review this note and the **MK3 chamber page** for additional insights!  
 
-Image of box and setup:
+I initially used an **Arduino Leonardo** for the setup, but it had compatibility issues with the SCD30 sensor. I then tried the **Arduino Nano**, which also didn’t work. Ultimately, the **Arduino Uno** worked flawlessly, so I recommend using it if you’re replicating this setup.  
 
-![](<../.gitbook/assets/IMG_2023 (1).jpeg>)
+## Setup Overview  
 
-I had an Arduino Leonardo hooked up to the SCD30 sensor, which printed into the serial monitor. I copied and pasted this data into Google Spreadsheets and made a graph. Water input was on the other side of the box.&#x20;
+### Materials
 
-Graph:
+- **IP67 waterproof storage container** ($15): [Home Depot Link](https://www.homedepot.com/p/Ezy-Storage-18L-19Qt-Waterproof-Clear-Latch-Tote-IP-67-FBA34060/314650516)  
+- **SCD30 sensor** ($35 on Amazon, $60 on Adafruit)  
+- **Arduino Uno** ($10 on Amazon)  
+- Wires ($1)  
+- USB cable for Arduino ($2)  
+- Breadboard ($2)  
+- Hot glue gun and glue sticks  
+- Drill with various-sized bits  
+- Thin tubing ($1)  
+- 10-50 mL syringe ($1)  
 
-![](../.gitbook/assets/testChamberMK2.png)
+### Build Instructions:  
+1. Create the SCD30 circuit following the [Adafruit tutorial](https://learn.adafruit.com/adafruit-scd30).  
+   * If not using the Adafruit sensor, add an **I2C shift register** for compatibility with 5V Arduinos.  
+2. Drill two holes on opposite sides of the box, about 1-2 inches above the base.  
+   * Thread wires through one hole and connect them to the sensor.  
+   * Insert tubing through the other hole, leaving a minimal amount protruding inside the box.  
+3. Seal both holes with hot glue to ensure an airtight chamber.  
+4. Place the sensor in the center of the chamber.  
+5. Add a Petri dish or similar container beneath the syringe hole to catch water and hold the resin.  
+6. Mount the Arduino outside the box and connect it to the sensor.  
+7. Test the setup by running the Arduino code provided in the Adafruit tutorial or the **data quantification section** of this guide.  
+8. Done!  
 
-This graph shows stable CO2 readings for over an hour, proving that this box works, is airtight, and my measuring apparatus is sound. So we are going to put a club soda in the box to see if the CO2 readings are going to rise before buying the sorbent. One more step!
+## Results  
 
-Club soda graph:
+### Initial Setup
 
-![](<../.gitbook/assets/image (2).png>)
+The Arduino Uno was connected to the SCD30 sensor, with data printed to the serial monitor. I copied this data into Google Sheets to generate the following graphs:  
 
-This graph shows a steady increase in CO2 levels after the club soda was opened and put into the box.&#x20;
+![](../assets/testChamberMK2.png)  
+This graph demonstrates stable CO2 readings over an hour, confirming the chamber is airtight and the measuring apparatus is reliable.  
 
-Club soda (second day) graph:
+### Club Soda Experiment: 
 
-![](<../.gitbook/assets/image (4).png>)
+To further test the chamber, I placed an open bottle of club soda inside.  
 
-This graph proves that the box is sealed hermetically (fancy word for air-tight). The CO2 levels continued to rise overnight because I left the club soda in the chamber. The weird spike at the end is because I opened the test chamber.&#x20;
+1. **Day 1:**  
+   ![](../assets/image-2.png)  
+   This graph shows a steady increase in CO2 levels as the club soda released gas.  
+2. **Day 2:**  
+   ![](../assets/image-4.png)  
+   CO2 levels continued to rise overnight, confirming the chamber’s hermetic seal. The spike at the end occurred when I opened the chamber.  
 
-Materials:
+## Images  
 
-* IP67 waterproof box ($15): [https://www.homedepot.com/p/Ezy-Storage-18L-19Qt-Waterproof-Clear-Latch-Tote-IP-67-FBA34060/314650516](https://www.homedepot.com/p/Ezy-Storage-18L-19Qt-Waterproof-Clear-Latch-Tote-IP-67-FBA34060/314650516)
-* SCD30 sensor ($35 on Amazon, $60 on Adafruit)
-* Arduino ($10 on Amazon)
-* Wires ($1)
-* USB cord for Arduino ($2)
-* Breadboard ($2)
-* Hot glue gun w/ hot glue
-* Drill with various-sized bits
-* Thin tubing ($1)
-* 10-50 mL syringe ($1)
-
-Build instructions:
-
-* Create the circuit from the Adafruit website: [https://learn.adafruit.com/adafruit-scd30](https://learn.adafruit.com/adafruit-scd30)
-* Don't forget to use an I2C shift register for the sensor if using a 5v Arduino and not using the Adafruit sensor. The Adafruit sensor has built-in shift registers.&#x20;
-* Code Arduino by either following the Adafruit tutorial or by checking out my code in the data quantification section
-* Drill two holes on either side of the box, about an inch or two above the bottom. Make sure to do this on the side of the box that's the smallest, and do it on opposite sides.&#x20;
-* Thread wires through one hole
-* Connect wires to the sensor
-* Place the sensor in the middle of the chamber
-* Cover up the wire hole with hot glue to make it airtight
-* Insert tubing into the box, leaving very little protruding from the inside of the box. This tubing is what connects the syringe to the resin chamber. This allows for the resin to be regenerated.&#x20;
-* Cover this hole up with more hot glue
-* Place a Petri dish or something similar under the syringe hole to catch water and to act as a place to hold the resin
-* Place Arduino on the outside of the box and connect wires
-* Done!
-
-![](../.gitbook/assets/IMG_1994.JPG)
-
-This is the SCD30 sensor I used, weighing 3.46 grams.
-
-![](../.gitbook/assets/IMG_2025.jpeg)
-
-Here is an image of the setup.
-
-![](../.gitbook/assets/IMG_2020.jpeg)
-
-Some of the wiring. Follow Adafruit tutorial.
+- **SCD30 Sensor:**  
+  ![](../assets/IMG_1994.JPG)  
+  The SCD30 sensor weighs just 3.46 grams.  
+- **Complete Setup:**  
+  ![](../assets/IMG_2025.jpeg)  
+- **Wiring Close-Up:**  
+  ![](../assets/IMG_2020.jpeg)  
+  Follow the Adafruit tutorial for wiring details.

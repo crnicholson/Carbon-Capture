@@ -1,35 +1,132 @@
----
-description: Read all of this, please. It's important.
----
-
 # Carbon Capture
 
-**Note: This project has been deprecated and is no longer under active research. I still keep this page up so maybe you can find it useful in your studies. Read the page "Was This Project a Success?" to learn more.**
+## Introduction
 
-**Second note: I released a paper on my project:** [https://docs.google.com/document/d/18p59EmKheP8YZRrSHv7kxILEd36yUNC7U6RdwxdAVec/edit?usp=sharing](https://docs.google.com/document/d/18p59EmKheP8YZRrSHv7kxILEd36yUNC7U6RdwxdAVec/edit?usp=sharing).
+TL;DR: I built a novel, small scale, carbon capture machine. 
 
-Carbon capture is the process of removing CO2 from the atmosphere using machines like DAC scrubbers. Carbon capture is not an excuse to keep polluting, but every climate prediction shows that even with a significant reduction of our carbon footprint, carbon capture is still needed to keep some normalcy in our lives (or what's left of it).&#x20;
+Carbon capture is the process of removing CO₂ from the atmosphere, often using machines like Direct Air Capture (DAC) scrubbers. While reducing our carbon footprint remains critical, climate models indicate that carbon capture is essential to maintain environmental stability.
 
-Now, onto what I'm doing for this project. At the moment, with my current system, I am just trying to make a proof of concept that shows that the CO2 can be desorbed with water. The capturing part happens, too, it just doesn't happen in the chamber (at the moment). The capturing happens in a fan chamber, though I have plans to integrate it all into one system at one point once the results from desorption seem promising enough. Also, note that this current system is not actually sequestering the carbon. It is simply absorbing and desorbing, with the CO2 just being released back into the atmosphere.&#x20;
+This project explores a proof-of-concept system that desorbs CO₂ using water, employing a moisture swing system. Currently, the capturing process occurs in a fan chamber, but future iterations aim to integrate both capturing and desorption into a single system. It’s worth noting that this prototype does not sequester CO₂; instead, it absorbs and desorbs CO₂, which is released back into the atmosphere during testing.
 
-The fundamental workings of this system are headlined by ion exchange resin. When treated with chemicals, like sodium carbonate, this resin can spontaneously capture CO2. If that seems like magic, then this next part must seem out of the world: it can release the CO2 with the addition of just liquid water (dubbed a moisture swing system). This might not seem like much, but I promise, it's pretty important.
+## Status: Deprecated
 
-The need to release the CO2 is important for two reasons. One, so it can be turned into many high-value products, like carbon fiber or carbon nanotubes (it could also simply be stored underground or injected into basalt). And two, the sorbent can be reused. This step is crucial. Instead of throwing away the $50 sorbent every time, you can reuse it, which lowers the environmental impact and cost. As I said, all you need to do is add water, compared to the regeneration of other common sorbents like Zeolites or calcium carbonate, which need tremendous amounts of heat (upwards of 500 C), and hence energy. And this energy is usually supplied from fossil fuels (though not always) making this system only carbon neutral, and maybe even carbon positive, which proves this an unsustainable approach.
+This project is no longer under active research but remains accessible for educational purposes. If you're interested in understanding why the project ended, you can read the [bottom of this page](#was-this-project-a-success).
 
-I am doing carbon capture like Professor Tao Wang and Professor Klaus Lackner did. The main study I am basing my work on is this:
+Additionally, I published a paper detailing this project, available here: [**Read the Paper**](https://docs.google.com/document/d/18p59EmKheP8YZRrSHv7kxILEd36yUNC7U6RdwxdAVec/edit?usp=sharing).
 
-Wang, Tao, et al. “Moisture Swing Sorbent for Carbon Dioxide Capture From Ambient Air.” _Environmental Science & Technology_, vol. 45, no. 15, American Chemical Society, July 2011, pp. 6670–75, doi:10.1021/es201180v.
+## How to Get Started
 
-Also, if you hear me referring to "the sorbent" I am talking about the ion exchange resin. I use the terms interchangeably, along with anion resin, resin, ion resin, and sorbent material.
+So, you wanna make your own CDR machine? Before diving into the other sections, make sure you've read through this page. To get the most out of this project and its respective guides, I highly recommend exploring a few of the resources below. If you're short on time, start with the interactive or the video — they’re great for quickly understanding the need for carbon dioxide removal (CDR) and clarifying the differences between its various types.
 
-This section assumes that you have a few prerequisites:
+The next step after getting educated is to start building. Once you're commited, you should start to purchase the items in the [materials](materials.md) page. Then, you should start out by making your sorbent, and then make your chamber. Both have guides in this repository.
 
-1. Arduino coding/wiring
-2. Arduino Serial monitor usage
-3. Drills
-4. Hot glue guns
-5. Google Spreadsheets (or Excel)
-6. A little bit of common sense (I'm lacking on that one)
-7. An understanding of what is airtight and what is not
-8. Basic/intermediate chemistry
-9. Basic/intermediate physics&#x20;
+This project primarily focuses on **moisture swing absorption** as a method of carbon capture, so it’s a bit niche and may feel biased toward this approach.  
+
+Good luck, and happy building!
+
+### Suggested Resources
+
+1. **Comprehensive Article**  
+   A detailed, in-depth read: [Read the CDR Primer](https://cdrprimer.org/read)
+2. **Fact Sheet**  
+   A concise overview: [Carbon Dioxide Removal Fact Sheet](https://www.energy.gov/sites/default/files/2021-11/Carbon-Dioxide-Removal-FactSheet.pdf)
+3. **Interactive Animation**  
+   Explore how moisture swing carbon capture works: [What is Direct Air Capture?](https://openaircollective.cc/what-is-dacc/)
+4. **Short Video**  
+   A ten-minute explainer that clears up confusion about all things CDR: [Watch on YouTube](https://www.youtube.com/watch?v=0wT10LDwe64)
+
+## Table of Contents
+
+* [Carbon Capture](README.md)
+* [Before You Start...](#how-to-get-started)
+* [Materials](materials.md)
+* [Test Chambers](test-chambers/README.md)
+  * [Test Chamber MK1](test-chambers/test-chamber-mk1.md)
+  * [Test Chamber MK2](test-chambers/test-chamber-mk2.md)
+  * [Test Chamber MK3](test-chambers/test-chamber-mk3.md)
+* [Sorbent Prep](sorbent-prep/README.md)
+  * [Sorbent #1 Prep](sorbent-prep/sorbent-1-prep.md)
+  * [Sorbent #2 Prep](sorbent-prep/sorbent-2-prep.md)
+* [Tests](tests/README.md)
+  * [Test #1 with Sorbent #1](tests/test-1-with-sorbent-1.md)
+  * [Test #2 with Sorbent #1](tests/test-2-with-sorbent-1.md)
+  * [Test #3 with Sorbent #1](tests/test-3-with-sorbent-1.md)
+  * [Test #4 with Sorbent #1](tests/test-4-with-sorbent-1.md)
+  * [Test #5 with Sorbent #1](tests/test-5-with-sorbent-1.md)
+  * [Test #6 with Sorbent #1](tests/test-6-with-sorbent-1.md)
+  * [Test #7 with Sorbent #1](tests/test-7-with-sorbent-1.md)
+  * [Test #8 with Sorbent #2](tests/test-8-with-sorbent-2.md)
+* [Data Analysis/Quantification](#data-analysisquantification)
+* [How Does Carbon Capture Work?](#how-it-works)
+* [Further Learning](#further-learning)
+* [Was This Project a Success?](#was-this-project-a-success)
+
+## How It Works
+
+The system utilizes **ion exchange resin**, treated with chemicals like sodium carbonate, to capture and release CO₂. Here’s how:
+
+1. **Capture:** The resin spontaneously absorbs CO₂ from the atmosphere.
+2. **Release:** The CO₂ is desorbed using only liquid water — a process known as a **moisture swing system**.
+
+### Why Releasing CO₂ Matters
+
+* **Product Utilization:** The released CO₂ can be converted into high-value products such as carbon fiber, nanotubes, or stored underground in basalt formations.
+* **Sorbent Reusability:** Reusing the resin reduces both cost and environmental impact. Unlike traditional sorbents such as zeolites or calcium carbonate, which require significant heat (up to 500°C) for regeneration, this system requires only water, making it more energy-efficient and sustainable.
+
+### Research Basis
+
+This project builds on research conducted by Professor Tao Wang and Professor Klaus Lackner, particularly the study:  
+Wang, Tao, et al. “Moisture Swing Sorbent for Carbon Dioxide Capture From Ambient Air.”  
+_Environmental Science & Technology_, vol. 45, no. 15, American Chemical Society, July 2011, pp. 6670–75, doi:10.1021/es201180v. **You may hear me refering to this as "the study."**
+
+## Key Terms
+
+Throughout this project, the terms "sorbent," "ion exchange resin," "anion resin," "resin," and "sorbent material" are used interchangeably.
+
+## Prerequisites
+
+To understand or replicate parts of this project, you should have the following skills and knowledge:
+
+1. Basic Arduino coding and wiring
+2. Familiarity with the Arduino Serial Monitor
+3. Proficiency with tools such as drills and hot glue guns
+4. Experience with simple data analysis tools (e.g., Google Sheets or Excel)
+5. A basic understanding of:
+   * Airtight sealing
+   * Basic/intermediate-level chemistry and physics
+   * Common sense (I admit, I’m lacking some of that myself)
+
+## Data Analysis/Quantification
+
+To create graphs from the CO2 sensor, follow this simple guide that I made: [https://github.com/charlienicholson3/scd30Code/tree/main](https://github.com/charlienicholson3/scd30Code/tree/main).
+
+To learn how much carbon dioxide you captured, use this script: [https://github.com/charlienicholson3/Carbon-Capture-Calculator](https://github.com/charlienicholson3/Carbon-Capture-Calculator).
+
+## Further Learning
+
+Some of these links have already been scattered around, but I'm working on putting all of them here. Or I will at some point.
+
+You should definitely **[check out OpenAir](www.openaircollective.cc)**! They have so many great resources including a carbon capture Discord server and carbon capture forum. They also run challenges and are just a great resource for learning everything about carbon capture.
+
+* Learn how ion exchange works: [https://www.lenntech.com/Data-sheets/Ion-Exchange-for-Dummies-RH.pdf](https://www.lenntech.com/Data-sheets/Ion-Exchange-for-Dummies-RH.pdf).
+* OpenAir is a community of CDR enthusiasts and volunteers with a large number of projects and large amounts of expertise: [https://openaircollective.cc/](https://openaircollective.cc/).
+* BTW, you can access most scholarly articles for free with Sci-Hub, if you find anything that interests you: [https://sci-hub.se/](https://sci-hub.se/).
+* Original study: [https://sci-hub.se/10.1021/es201180v](https://sci-hub.se/10.1021/es201180v).
+* Studies with some more stuff and more clearing up on how it works: [https://sci-hub.se/10.1371/journal.pone.0179828](https://sci-hub.se/10.1371/journal.pone.0179828) and [https://sci-hub.se/10.1002/ange.201507846](https://sci-hub.se/10.1002/ange.201507846) (I recommend reading these).
+* A fun animation of moisture swing absorption: [https://openaircollective.cc/what-is-dacc/](https://openaircollective.cc/what-is-dacc/).
+* A whole other **page of resources**: [https://openaircollective.cc/resources/](https://openaircollective.cc/resources/).
+* Here is the paper I wrote on my project: [https://docs.google.com/document/d/18p59EmKheP8YZRrSHv7kxILEd36yUNC7U6RdwxdAVec/edit?usp=sharing](https://docs.google.com/document/d/18p59EmKheP8YZRrSHv7kxILEd36yUNC7U6RdwxdAVec/edit?usp=sharing).
+
+## Was This Project a Success?
+
+This project has been in the works for over 2 years, and it has started slowing down. Would I call it a success? Yes. Yes, in the sense that I learned lots about chemistry and doing projects. No, otherwise. Let me explain.
+
+Pertaining to the numbers, my project wasn't a success. I blame the lack of proper lab, primarily.
+
+A valuable lesson that I learned is that it's hard to replicate the work of famous scientists (with massive laboratories and massive budgets) in your bedroom. I'm not saying it's not possible; my carbon capture machine worked, just not at a level that could make any change. And I did the math, too. I found out that even with the most efficient machine possible, you would need a gargantuan number of machines to make an impact. Again, I'm not saying that carbon capture is not possible and is not needed (it is), but it made me think. It made me think that carbon capture is not something that comes swooping in, saving us from climate apocalypse. It isn't a crutch; it's the finale in our carbon emission reductions. We can't rely too heavily on it, and we cannot act like it is our crutch.
+
+Is this project worth it for you? It depends on the person, but this is more of a learning journey than anything else. Are you looking to learn more about chemistry, physics, and the viability of carbon capture? Then go ahead, this is for you. Are you a genius who wouldn't learn anything while doing this? Then maybe this isn't for you. I'm 100% not shooting down your dreams. If you're serious about this, I beg you to get access to a real lab and become a researcher. Develop the machines of the future!
+
+Because of what I've just said, I've decided to move on to more tangible research that can tackle our world's plastic problem and lower our CO2 emissions at the same time, bioplastic. This isn't the end of carbon capture for me. I hope to someday continue this in college or as an internship. Furthermore, all my projects in the future will have a part, whether large or small, about CO2 reduction because I've learned just how important it is.
+
+Best of luck to you.

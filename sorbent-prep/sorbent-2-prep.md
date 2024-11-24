@@ -1,61 +1,89 @@
-# Sorbent #2 Prep
+# Sorbent #2 Preparation  
 
-**Note:** This is essentially the same as Sorbent #1 Prep, but I've added the rinsing step.
+**Note:** This is an improved version of the **Sorbent #1 Prep**, now incorporating a crucial **rinsing step** for better results.  
 
-**Second Note:** For more effective carbon capture, you would want to use hydroxide as your ion because of its ability to capture twice the amount of CO2 compared to carbonate. But, as I am doing this in a kitchen, I am using sodium carbonate because it's a bit safer than the highly alkaline sodium hydroxide. That being said, if you have the proper safety equipment to handle strong chemicals, feel free to follow these steps using a 1.0 molar concentration solution instead of the 0.5 molar sodium carbonate solution.
+**Second Note:** For optimal carbon capture, hydroxide ions are preferable because they can capture **twice the amount of CO2** compared to carbonate ions. However, for safety and accessibility in a kitchen setting, I am using **sodium carbonate** instead of the highly alkaline sodium hydroxide. If you have proper safety gear and experience handling strong chemicals, you can substitute with a **1.0 M sodium hydroxide solution** for this process.  
 
-We need to "wash" and prep the sorbent because it's not ready for carbon capture directly from the factory. Fresh from the factory, the ion resin has chloride ions attached to the quaternary ammonium functional group. We need to exchange these chloride ions for carbonate or hydroxide ions. We can do this by placing the resin into a bath of either sodium carbonate or sodium hydroxide.
+## Why Prep the Sorbent?  
 
-**Prep summary:**
+Factory-fresh ion exchange resin isn’t ready for carbon capture—it arrives loaded with chloride ions bound to its quaternary ammonium functional groups. To make the resin CO2-absorbent, we need to replace the chloride ions with **carbonate** or **hydroxide ions** via multiple chemical baths.  
 
-First, you need to soak the ion resin in hot water for 48 hours to allow the pores to open up. Second, you need to soak the ion resin in chemical bath for 2 hours, then take it out, rinse it, and put it into a new, fresh bath. Lastly, you need to repeat the last step 5 more times, and dry it, and you're done!
+## Process Overview  
 
-**Step #1:** Gather all the necessary "ingredients":
+### Steps at a Glance:  
+1. **Pore Opening:** Soak the resin in hot water for 48 hours.  
+2. **Ion Exchange:** Submerge the resin in a sodium carbonate solution for 2 hours, rinse thoroughly, and repeat the bath-and-rinse cycle **6-7 times**.  
+3. **Drying:** Allow the resin to dry for 24 hours before testing.  
 
-* Sodium carbonate (at least 15g, 2.15g per wash and do NOT buy sodium bicarbonate)
-* Distilled or deionized water (distilled water is $2 at Stop and Shop). You will need at least a liter of it, as you need 50mL per wash (so 300mL), and a little extra just in case.
-* Ion exchange resin: [https://dws.octochemstore.com/product/amberlite-ira900-cl/](https://dws.octochemstore.com/product/amberlite-ira900-cl/) (other types should work, this is just the type I used)
+## Step 1: Materials  
 
-**Step #2:** Gather all the necessary supplies/tools (look in the materials section for more information):
+### Chemicals  
+- **Sodium carbonate** (at least 15g; use ~2.15g per wash). Avoid sodium bicarbonate.  
+- **Distilled or deionized water** (minimum 1 liter; 300mL is required for the baths, with extra as backup).  
 
-* High resolution scale
-* Work area (I used a cookie sheet!)
-* Beakers
-* Stirring implement, like a popsicle stick
-* Measuring implement
-* Goggles (for the carbonate)
-* Gloves (for the resin and the carbonate)
-* Nut milk bag or specialized resin bag (I went the dumb way and used non-woven polyester to contain the resin). This bag has to be able to let water through, but not let the tiny, tiny little resin beads out.&#x20;
-* Slow cooker or lab hotplate
+### Sorbent Resin  
+- **Amberlite IRA900 Cl** or equivalent ion exchange resin: [Product Link](https://dws.octochemstore.com/product/amberlite-ira900-cl/).  
 
-**Step #3:** Follow the procedure and do some science(!):
+## Step 2: Supplies and Tools  
 
-* Put 5 grams of the resin in bag
-* Fill a small beaker to the top with distilled water
-* Place resin bag into beaker
-* Place beaker into the slow cooker, and make sure the beaker is fully surrounded by water
-* Turn slow cooker on for 48 hours, set to low, to maintain a temperature around 85 degrees Celsius
-* Near the 48 hour mark, start preparing the 0.5 molar sodium carbonate solution by dissolving 2.15g of sodium carbonate in 50mL of distilled water. You are welcome to create a larger bath of sodium carbonate, I just did this to use the least number of materials.
-* After 48 hours, take out the bag and rinse it with distilled water
-* Immediately after rinsing it, put it into the 0.5 M solution
-* 2 hours after putting the bag in the solution, take out the bag, and dump out the old solution
-* Rinse the resin with distilled water
-* Prepare a new solution by following the same steps
-* Put bag in new solution
-* Repeat last 4 steps 6-7 times to fully replace chloride ions with carbonate ions
-* Let dry for 24 hours before testing
+- **High-resolution scale** (for precise measurements).  
+- **Beakers** (or heat-resistant containers).  
+- **Stirring implement** (e.g., popsicle stick).  
+- **Measuring tools** (for water and solution preparation).  
+- **Safety gear:** Goggles and gloves (for handling sodium carbonate and resin).  
+- **Resin bag:** Use a nut milk bag, resin-specific bag, or non-woven polyester. The bag must allow water to pass through while containing the tiny resin beads.  
+- **Heating device:** Slow cooker or lab-grade hotplate.  
+- **Work surface:** A cookie sheet or similar containment area.  
 
-**Step #4:** Celebrate!
+## Step 3: Procedure  
 
-You've successfully created a CO2 absorbent! Now, you can put it into one of the test chambers and see if it works. But before you do that, you might want to run a fan over the sorbent to saturate it with CO2.
+1. **Prepare the resin:**  
+   - Weigh **5 grams** of resin and place it into the resin bag.  
+   - Fill a beaker with distilled water and submerge the resin bag.  
+   - Place the beaker into a slow cooker filled with water, ensuring the beaker is fully surrounded.  
 
-**How I could have done this better:**
+2. **Heat the resin:**  
+   - Set the slow cooker to **low** (maintaining ~85°C).  
+   - Allow the resin to soak for **48 hours** to open its pores.  
 
-After my results were sub-par (see Tests section), I read The Study again to see if I did anything differently from the study. And it turns out, I did. The researchers agitated the resin in the carbonate solution by presumably using a magnetic stirrer. Since I don't have one of those, **this project will be on hiatus** until I can get my hands on a stirring mechanism. I might be able to get funding to buy one, as the ones on the lower end of the price scale are \~$100. In the mean time, I will focus on documenting the process in-depth and writing some papers.
+3. **Prepare the sodium carbonate solution:**  
+   - Near the end of the 48-hour soaking period, dissolve **2.15g of sodium carbonate** in **50mL of distilled water** to create a **0.5 M solution**.  
+   - (Optional: Prepare a larger batch to minimize the number of solutions you need to mix.)  
 
-Furthermore, my results might be deterring because of the usage of the sodium carbonate bath, instead of the sodium hydroxide bath. This link shows some more information on that matter: [https://www.openairforum.org/t/potential-alternative-salts/67/3](https://www.openairforum.org/t/potential-alternative-salts/67/3). It could also be because I used a 0.5 M sodium carbonate solution. Maybe a 1.0 M sodium carbonate solution would perform better.&#x20;
+4. **Chemical bath and rinsing cycle:**  
+   - After 48 hours, remove the resin bag from the water and rinse it thoroughly with distilled water.  
+   - Immediately place the rinsed bag into the prepared sodium carbonate solution.  
+   - After **2 hours**, remove the bag, rinse it thoroughly, and discard the used solution.  
+   - Prepare a fresh sodium carbonate solution and repeat the bath-and-rinse cycle.  
+   - Repeat this step **6-7 times** to ensure complete ion exchange (chloride → carbonate).  
 
-Next, my ion exchange resin might be inadequate. I could not get my hands on the ion exchange resin that The Study used, so this might be the root of the problems. I basically just chose the cheapest one that they had, as I have no training in ion resin.&#x20;
+5. **Dry the resin:**  
+   - After the final rinse, allow the resin bag to dry for **24 hours** before testing.  
 
-Lastly, I still have yet to find a better way to hold the resin, as I lost a significant amount of resin in this process, probably near about 75% lossage of resin.
+6. **Optional Pre-Saturation:**  
+   - Run a fan over the dried resin to pre-saturate it with CO2 before testing.  
 
+## Step 4: Celebrate!  
+
+Congratulations! You’ve successfully prepared a CO2-absorbing sorbent. It’s now ready to be placed into a test chamber for evaluation.  
+
+## Lessons Learned and Future Improvements  
+
+After initial testing (see **Tests** section), I identified a few areas for improvement:  
+
+1. **Lack of Agitation:**  
+   - The study I referenced utilized a magnetic stirrer to agitate the resin during the chemical bath. I don’t currently own one, which might have affected the results. Magnetic stirrers cost ~$100 on the lower end, so this project will be paused until I can acquire one.  
+
+2. **Alternative Chemicals:**  
+   - Sodium carbonate might not be as effective as sodium hydroxide for ion exchange. According to [this discussion](https://www.openairforum.org/t/potential-alternative-salts/67/3), hydroxide-based solutions could yield significantly better results.  
+
+3. **Concentration of Solution:**  
+   - I used a **0.5 M sodium carbonate solution**, but increasing the concentration to **1.0 M** might improve the resin’s performance.  
+
+4. **Quality of Ion Exchange Resin:**  
+   - I was unable to obtain the specific resin used in the study and opted for a budget-friendly alternative. This might be another factor in the suboptimal results.  
+
+5. **Loss of Resin:**  
+   - My current resin containment system led to significant loss—approximately 75% of the resin. A better containment method is needed to minimize waste.  
+
+By refining these steps, I aim to improve the sorbent’s efficiency in future experiments. For now, I’ll continue documenting the process and sharing findings to build on this work.  
