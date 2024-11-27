@@ -1,6 +1,6 @@
 # Test #8 with Sorbent #2
 
-![](<../assets/image-10.png>)
+![](<../Media/image-10.png>)
 
 Notes: A very minor success. I decided to make a new sorbent material to see if that would increase my capture rate, but unfortunately it didn't work too well. It should be noted that the resin bag fell into the water at some point, and I knew it has fell in by 17:30, though it probably fell in at around 17:00. I decided to keep it in the water just to see what would happen, and it did rise ever so slightly.
 

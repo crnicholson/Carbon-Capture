@@ -2,7 +2,7 @@
 
 **Note:** This method is a **"what not to do"** guide. I recommend following the **Sorbent #2 Preparation** steps instead. This is purely here for documentation and to show an example of what doesn’t work well.  
 
-**Second Note:** For optimal carbon capture, hydroxide ions are more effective than carbonate ions, as they can absorb twice the amount of CO2. However, I opted for **sodium carbonate** (a safer alternative to sodium hydroxide) since I’m working in a kitchen. If you have the proper safety equipment and experience to handle strong alkalis, feel free to substitute sodium carbonate with a 1.0 M sodium hydroxide solution in this process.
+**Second Note:** For optimal carbon capture, hydroxide ions are more effective than carbonate ions, as they can absorb twice the amount of CO₂. However, I opted for **sodium carbonate** (a safer alternative to sodium hydroxide) since I’m working in a kitchen. If you have the proper safety equipment and experience to handle strong alkalis, feel free to substitute sodium carbonate with a 1.0 M sodium hydroxide solution in this process.
 
 ## Why Prep the Sorbent?  
 Ion exchange resin isn’t ready for carbon capture straight out of the factory. The chloride ions attached to the resin’s quaternary ammonium functional groups must be replaced with either **carbonate ions** or **hydroxide ions**. This is done by soaking the resin in a chemical bath.  
@@ -50,12 +50,12 @@ Ion exchange resin isn’t ready for carbon capture straight out of the factory.
    - Repeat this process **6-7 times** to ensure complete ion exchange (chloride → carbonate).  
 5. **Dry the resin:**  
    - Remove the resin bag and allow it to dry for **24 hours** before testing.  
-6. **Optional CO2 saturation:**  
-   - Before testing, run a fan over the dried resin to pre-saturate it with CO2.  
+6. **Optional CO₂ saturation:**  
+   - Before testing, run a fan over the dried resin to pre-saturate it with CO₂.  
 
 ## Step 4: Celebrate!  
 
-Congratulations! You’ve successfully prepped a CO2-absorbing sorbent. Place it into a test chamber to evaluate its performance.  
+Congratulations! You’ve successfully prepped a CO₂-absorbing sorbent. Place it into a test chamber to evaluate its performance.  
 
 ## Lessons Learned  
 

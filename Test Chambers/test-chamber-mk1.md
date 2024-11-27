@@ -21,16 +21,16 @@ For this version, I used an **Ikea box** paired with a **MOX sensor**. Let me sa
 ### Key Takeaways:  
 
 1. **MOX Sensors Are Bad:**  
-   MOX sensors are notoriously unreliable for measuring CO2. Their readings are all over the place, making them unsuitable for precise testing.  
+   MOX sensors are notoriously unreliable for measuring CO₂. Their readings are all over the place, making them unsuitable for precise testing.  
 
 2. **Fans Mess with Sensors:**  
-   The fan I added to circulate air inside the chamber ended up skewing the CO2 readings. It increased the airflow across the sensor, making it falsely detect higher CO2 concentrations. This theory needs further testing with more advanced sensors, but for now, consider it a lesson learned.  
+   The fan I added to circulate air inside the chamber ended up skewing the CO₂ readings. It increased the airflow across the sensor, making it falsely detect higher CO₂ concentrations. This theory needs further testing with more advanced sensors, but for now, consider it a lesson learned.  
 
 ### Images  
 
 If you’re curious (or need a laugh), here are some photos of my failed contraption:  
 
-![](../assets/IMG_1955.jpeg)  
-![](../assets/IMG_1962.jpeg)  
-![](../assets/IMG_1958.jpeg)  
-![](../assets/IMG_1956.jpeg) 
+![](../Media/IMG_1955.jpeg)  
+![](../Media/IMG_1962.jpeg)  
+![](../Media/IMG_1958.jpeg)  
+![](../Media/IMG_1956.jpeg) 

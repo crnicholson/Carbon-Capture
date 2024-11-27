@@ -1,10 +1,10 @@
 # Test Chamber MK2  
 
-For the MK2 test chamber, I used an **IP67 waterproof storage container** from Home Depot and upgraded to a more accurate CO2 sensor, the **SCD30**. This sensor uses NDIR (Non-Dispersive Infrared) technology, making it far more precise than the MOX sensor used in the previous version.  
+For the MK2 test chamber, I used an **IP67 waterproof storage container** from Home Depot and upgraded to a more accurate CO₂ sensor, the **SCD30**. This sensor uses NDIR (Non-Dispersive Infrared) technology, making it far more precise than the MOX sensor used in the previous version.  
 
 To modify the container, I drilled two holes:
 * One for water (to regenerate the resin).
-* One for wires to connect the CO2 sensor.  
+* One for wires to connect the CO₂ sensor.  
 
 I sealed these holes with hot glue to ensure the chamber remained airtight.  
 
@@ -48,27 +48,27 @@ I initially used an **Arduino Leonardo** for the setup, but it had compatibility
 
 The Arduino Uno was connected to the SCD30 sensor, with data printed to the serial monitor. I copied this data into Google Sheets to generate the following graphs:  
 
-![](../assets/testChamberMK2.png)  
-This graph demonstrates stable CO2 readings over an hour, confirming the chamber is airtight and the measuring apparatus is reliable.  
+![](../Media/testChamberMK2.png)  
+This graph demonstrates stable CO₂ readings over an hour, confirming the chamber is airtight and the measuring apparatus is reliable.  
 
 ### Club Soda Experiment: 
 
 To further test the chamber, I placed an open bottle of club soda inside.  
 
 1. **Day 1:**  
-   ![](../assets/image-2.png)  
-   This graph shows a steady increase in CO2 levels as the club soda released gas.  
+   ![](../Media/image-2.png)  
+   This graph shows a steady increase in CO₂ levels as the club soda released gas.  
 2. **Day 2:**  
-   ![](../assets/image-4.png)  
-   CO2 levels continued to rise overnight, confirming the chamber’s hermetic seal. The spike at the end occurred when I opened the chamber.  
+   ![](../Media/image-4.png)  
+   CO₂ levels continued to rise overnight, confirming the chamber’s hermetic seal. The spike at the end occurred when I opened the chamber.  
 
 ## Images  
 
 - **SCD30 Sensor:**  
-  ![](../assets/IMG_1994.JPG)  
+  ![](../Media/IMG_1994.JPG)  
   The SCD30 sensor weighs just 3.46 grams.  
 - **Complete Setup:**  
-  ![](../assets/IMG_2025.jpeg)  
+  ![](../Media/IMG_2025.jpeg)  
 - **Wiring Close-Up:**  
-  ![](../assets/IMG_2020.jpeg)  
+  ![](../Media/IMG_2020.jpeg)  
   Follow the Adafruit tutorial for wiring details.

@@ -1,6 +1,6 @@
 # Test #6 with Sorbent #1
 
-![](<../assets/image-9.png>)
+![](<../Media/image-9.png>)
 
 Notes: A big failure. The ppm barely changed when I added water. I used a tea bag to hold the resin in the lowering and raising system, and it fell off at some time and broke, and I didn't notice. I suspect it fell off early on (in the first quarter).
 
